@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caliculator</title>
+    <link rel="stylesheet" href="./CSS/sanitize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="globalContainer">
+        <div class="calculator">
+            <!-- ここに結果を表示 -->
+            <div class="calculator__screen">
+                <div data-lastoperatorand class="calculator__screen__firstNumber"></div>
+                <div data-currentoperator class="calculator__screen__Nextnumber"></div>
+            </div>
+            <div class="calculator__btns">
+                
+                <button data-operator class="operator">+</button>
+                <button data-operator class="operator">-</button>
+                <button data-operator class="operator">×</button>
+                <button data-operator class="operator">÷</button>
+                <button data-number >1</button>
+                <button data-number >2</button>
+                <button data-number >3</button>
+                <button data-number >4</button>
+                <button data-number >5</button>
+                <button data-number >6</button>
+                <button data-number >7</button>
+                <button data-number >8</button>
+                <button data-number >9</button>
+                <button data-number >0</button>
+                <button data-number >00</button>
+                <button data-number class="decimal">.</button>
+                <button data-all-clear>AC</button>
+                <button data-back-space>BS</button>
+                <button data-percent>%</button>
+                <button data-equal class="equal">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
